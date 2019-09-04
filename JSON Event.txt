@@ -1,0 +1,64 @@
+//Andrew Carroll
+//April 23, 2019
+<script type="application/ld+json">
+{
+ "@context": "http://schema.org",
+ "@type": "Event",
+ "name" : "Strength of Relational Databases and NoSQL Soltuions", 
+ 
+ "performer": {
+ 	"@type" : "Person",
+    		"name" : "TJ Greenier",
+       		"jobTitle" : "President",
+        	"affiliation" : "Clarity Business Solutions, Inc.",
+        	"sameAs" : "https://twitter.com/tjgreenier"
+        },
+        
+  "organizer" : {
+  	"@type" : "Organization",
+            "name" : "Clarity Business Solutions, Inc.",
+            "sameAs" : "https://www.claritybizsol.com/"
+            },
+  "attendee" : {
+  	"name" : "Andrew Carroll"
+    },
+        	
+  
+ 
+ "location": {
+  "@type": "Place",
+    	"address": {
+     	"@type": "PostalAddress",
+      		"addressLocality": "College Park",
+      		"addressRegion" : "MD",
+     	 	"postalCode": "20742",
+      		"streetAddress": "4130 Campus Drive"
+		},
+	"name" : "Hornbake Library Room 0302J"
+	},
+    
+ "RSVP" : {
+  "@type": "Thing",
+ 	"url" : "https://docs.google.com/forms/d/e/1FAIpQLSfGm7RmBxu9lEqiOEpd9fjnCh6AZxkwoSZE-L2KvlnrAZgxkw/viewform"
+    },
+    
+ "subEvent" : [{
+    "@type":"Event",
+    	"name": "Introductions",
+   	"description" : "TJ will be talking about his career path and experience in the industry.",
+    	"startDate": "2018-03-14T16:00",
+    	"endDate" : "2018-03-14T16:45"
+    },
+    
+  {
+    "@type":"Event",
+    	"name": "Strength of Relational Databases and NoSQL Solutions",
+    	"description" : "TJ will be sharing effective strategies to choose the right platform, providing a technical walk through some common relational database examples, followed by a discussion on transitioning to a NoSQL solutions. .",
+    	"startDate": "2018-03-14T16:45",
+   	"endDate" : "2018-03-14T18:00"
+    }
+    ],
+    
+    "startDate": "2018-03-14T16:00",														
+    "endDate" : "2018-03-14T18:00"
+                  }
